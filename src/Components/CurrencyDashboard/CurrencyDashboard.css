@@ -1,0 +1,57 @@
+.outerBody{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currencyConverterBox{
+    background-color: rgb(172, 190, 184);
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border-radius:10px;
+}
+
+label{
+    font-size: 25px;
+    color: rgb(28, 28, 94);
+    font-weight: bold;
+    
+}
+
+input{
+    width: 90%;
+    padding: 4px 0px;
+    font-size: 20px;
+    margin: 20px 0px;
+    border-radius: 7px;
+}
+
+select{
+    width: 40%;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+button{
+    padding: 8px 20px;
+    font-size: 18px;
+    background-color: rgb(28, 28, 94);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.fromCurrency{
+    font-size: 30px;
+}
+
+.toCurrency{
+    font-size: 35px;
+}
